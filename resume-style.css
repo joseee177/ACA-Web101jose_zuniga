@@ -1,15 +1,110 @@
-body { 
-  margin: 0;
+body {
+  margin: 0 auto;
+  padding: 0px;
+  
 }
- .main-container {
-    background-color: red;
-height: 100%;
-display: grid;
-grid-template-columns: repeat (4, 1fr);
-grid-template-rows: 80px 1fr 450px 10%;
- }
- .main-container p { 
-   grid-column: 2/-1;
-   grid-row: 2/3;
- }
- 
+
+header {
+  height: 80px;
+  width: 800px;
+  margin: 0 auto;
+  border-bottom: 2px solid black;
+  padding: 5px;
+}
+
+article {
+  background-color:#ffffff;
+  width: 800px;
+  margin: 0 auto;
+  #border: 2px solid green;
+  #padding-top: 15px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#contacts {
+  float: right;
+  
+}
+h1 {
+  padding: 10px;
+  float: left;
+}
+
+.label {
+  color: #4ec5c1;
+} 
+
+#workExperience{
+  width: 500px;
+  float: left;
+  background-color: #efefef;
+  height: 520px;
+  padding:20px;
+  padding-bottom:10px;
+  margin-bottom:10px;
+  }
+
+.Objective{
+  width: 230px;
+  float: right;
+  background-color: #efefef;
+  height: 150px;
+  padding:10px;
+  margin-bottom:10px;
+  }
+article  h2{
+  padding-left: 25px;
+  border-bottom: 2px solid black;
+}
+
+.work {
+  width: 100%;
+  #border: 1px solid red; 
+  #adding: 10px 0px;
+  min-height:100px;
+  margin-top:-20px;
+  
+}
+
+.year {
+  border-right: 1px solid black;
+  width: 100px;
+  min-height: 100px;
+  float: left;
+  text-align:center;
+  font-style: bold;
+  line-height:100px;
+  padding-top: 20px;
+}
+
+
+.workDesc {
+  padding-top: 20px;
+ min-height: 100px;
+width: 350px;
+float: right;
+  text-align:left;
+}
+
+.work h3 {
+  color: #4ec5c1;
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+.work p {
+  font-size: 14px;
+  padding: 0px;
+  margin: 10px 0px 0px 0px;
+}
+
+footer{
+ margin-top:50px;
+  background-color: #efefef;
+  height:20px;
+  width: 800px;
+  clear:both;
+  margin: 0 auto;
+  text-align:center;
+}
