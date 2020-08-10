@@ -16,8 +16,8 @@ article {
   background-color:#ffffff;
   width: 800px;
   margin: 0 auto;
-  #border: 2px solid green;
-  #padding-top: 15px;
+  border: 2px solid green;
+  padding-top: 15px;
   margin-top: 20px;
   margin-bottom: 50px;
 }
@@ -60,8 +60,8 @@ article  h2{
 
 .work {
   width: 100%;
-  #border: 1px solid red; 
-  #adding: 10px 0px;
+  border: 1px solid red; 
+  padding: 10px 0px;
   min-height:100px;
   margin-top:-20px;
   
