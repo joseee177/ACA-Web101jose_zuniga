@@ -3,7 +3,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel = "stylesheet" href="resume-style.css">
-  <title>Document</title>
+  <script src="resume.js"></script>
+  <title>Animated Resume</title>
 </head>
 <body>
   
@@ -28,12 +29,18 @@
     
     <div class="right-side">
         <div class="brand">
-          <div>RESUME</div>
+          <div class="right-brand">
+            <img id="atx" src="/ATX3.jpg" onclick="myfunction(this)"alt="picture of austin tx">
+          </div>
         </div>  
     </div>    
   </div>
   <header>
-    <h1> <span class="label"> Jose Zuniga </h1>
+      <div class="left-header">
+    <h1 onclick="userclick(this)"> <span class="label"> Jose Zuniga </h1>
+      <button class="anibutton" onclick="myanimation()">Phone</button>
+      </div>
+      <p id="demo"></p>
     <p id="contacts" > <span class="label"> email: </span> <a href="mailto:notarealemail@gmail.com" > notarealemail@gmail.com </a> <br />
       <span class="label"> twitter: </span> <a href="#">@notarealtwitter </a><br />
       <span class="label">location:</span> Austin, Tx
