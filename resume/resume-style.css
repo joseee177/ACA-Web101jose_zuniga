@@ -5,18 +5,31 @@ body {
 }
 
 header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
   height: 80px;
   width: 800px;
   margin: 0 auto;
   border-bottom: 2px solid black;
   padding: 5px;
 }
+.anibutton{
+  height: 25px;
+  width: 100px;
+  color: #4ec5c1;
+  border-radius: 100%;
+}
+#demo{
+  color: #4ec5c1;
+  height: 50px;
+  width: 250px;
+  padding-left: 20% ;
+}
 
 article {
   background-color:#ffffff;
   width: 800px;
   margin: 0 auto;
-  border: 2px solid green;
   padding-top: 15px;
   margin-top: 20px;
   margin-bottom: 50px;
@@ -24,11 +37,42 @@ article {
 
 #contacts {
   float: right;
+  height: ;
   
 }
-h1 {
+/*h1 {
   padding: 10px;
   float: left;
+}*/
+h1 {
+  animation: change-text 1000ms ease ;
+}
+#atx{
+  height: 100px;
+  width: auto;
+}
+@keyframes change-background {
+  0% {
+    background: #69b7eb;
+  }
+  50% {
+    background: #b3dbd3;
+  }
+  100% {
+    background: #f4d6db;
+  }
+}
+@keyframes change-text {
+  0% {
+    color: #69b7eb;
+  }
+  50% {
+    color: #b3dbd3;
+    font-size: 3em;
+  }
+  100% {
+    color: #f4d6db;
+  }
 }
 
 .label {
@@ -60,7 +104,6 @@ article  h2{
 
 .work {
   width: 100%;
-  border: 1px solid red; 
   padding: 10px 0px;
   min-height:100px;
   margin-top:-20px;
